@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Request Service</title>
+    <link rel="stylesheet" href="jackal.css">
+    </head>
+    <style>
+        .box1 {
+            position: relative;
+            top: 23rem;
+            left: 3rem;
+            color: white;
+            font-size: 3rem;
+
+        }
+
+        .contact{
+            position: relative;
+            bottom: 50rem;
+            left: 110rem;
+            color: white;
+            font-size: 3rem;
+        }
+
+        .login-box {
+            position: relative;
+            bottom: 55rem;
+            left: 110rem;
+            background-color: rgba(255, 255, 255, 0.6); 
+            padding: 20px 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 400px;
+        }
+        .login-box h2 {
+            margin-bottom: 20px;
+            font-size: 30px;
+            color: black;
+        }
+        .login-box label {
+            display: block;
+            margin-bottom: 5px;
+            color: black;
+            font-size: 2rem;
+            font-weight: 700;
+          }
+        .login-box input, .login-box textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            opacity: .6;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+        .login-box button {
+            width: 100%;
+            padding: 10px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .login-box button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+<body>
+          
+    <div class="jackal">
+        <video autoplay loop muted plays-inline>
+            <source src="images/Jackal.mp4" type="video/mp4">
+        </video>
+        <div class="box1">
+            <h1>I will Kill for the right amount<br> of money.<br><br>
+                <br>&nbsp;&nbsp;&nbsp; I kill processes, scripts, etc..</h1>
+        </div>
+        
+    </div>
+    
+    <header>
+        <a href="#" class="logo"><img src="images/logo.png" alt=""></a>
+        <nav>
+            <a href="index.html" class="active">Home</a>
+            <a href="Services.html">Services</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="jackal.html">Request a service</a>
+            <a href="RFG.html">Randome facts generator</a>
+        </nav>
+        </header>
+    
+
+    <div class="login-box">
+        <h2>Contact Me</h2>
+        <form action="#" method="post">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+            <label for="feedback">Feedback</label>
+            <textarea id="feedback" name="feedback" rows="4" placeholder="Write your feedback here..." required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    
+</body>
+</html>

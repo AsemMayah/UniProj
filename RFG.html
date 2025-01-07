@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Randome Facts</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <script src="script.js" defer></script>
+
+    <style>
+      .info{
+        position: relative;
+        left:15rem ;
+        top:20rem ;
+        }
+
+        .info h1{
+          font-size: 5rem;
+          color:#C42A27;
+          font-weight: 400;
+        }
+
+        .info span{
+          font-family: cursive;
+          line-height: 2;
+        }
+
+        .button button{
+          position: relative;
+          left: 60rem;
+          top:24rem ;
+          font-size: 7rem; 
+          color: #C42A27;  
+          background-color: transparent;
+          cursor: pointer;
+          }
+
+          .button button:hover{
+            color: #C42A27;
+            transform: scale(1.4);
+            border-radius: 50%;
+            background-color: transparent;
+            box-shadow:  red 0 0 25px;
+            cursor: pointer;
+          }
+
+          .button p{
+            position: relative;
+            top:4rem ;
+            font-weight: 500;
+            left:35rem ;
+            font-size: 50px;
+            color: red;
+            font-weight: 700;
+           }
+    </style>
+
+</head>
+<body>
+    <header>
+        <a href="#" class="logo"><img src="images/logo.png" alt=""></a>
+    
+        <nav>
+          <a href="index.html" class="active">Home</a>
+          <a href="Services.html">Services</a>
+          <a href="portfolio.html">Portfolio</a>
+          <a href="jackal.html">Request a service</a>
+          <a href="RFG.html">Randome facts generator</a>
+        </nav>
+     </header>
+    <div class="info">
+     <h1>&nbsp;&nbsp;This webpage is designed for those who <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;are more interested in getting to know me: <br><span> Click The button for some Exciting Facts !!</span></h1>
+     <div class="button">
+     <button onclick="button" id="infoButton"><i class="fa fa-paw"></i> </button>
+     <p id="infoDisplay"></p>
+    </div>
+    </div>
+  </body>
+</html>
